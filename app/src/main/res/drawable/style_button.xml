@@ -1,0 +1,22 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/animator/button_shadow.xml -->
+
+
+
+    <!-- Button Pressed State -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#7995AC" /> <!-- Change to your desired pressed color -->
+            <corners android:radius="12dp" /> <!-- Adjust the radius for rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Button Normal State -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00ACC1" /> <!-- Change to your desired normal color -->
+            <corners android:radius="12dp" /> <!-- Adjust the radius for rounded corners -->
+        </shape>
+    </item>
+
+</selector>

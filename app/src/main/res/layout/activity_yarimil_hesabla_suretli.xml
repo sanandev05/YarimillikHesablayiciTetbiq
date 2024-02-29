@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9A9DB8B8"
+    tools:context=".YarimilHesablaSuretli_activity">
+
+
+    <LinearLayout
+        android:id="@+id/LayoutKSQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/simplestyle_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ ballarını daxil edin:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/KSQler_editText"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:digits="0123456789.,"
+            android:inputType="numberDecimal"
+            android:hint="Bura"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="* Hər KSQ balının arasına vergül qoyun ."
+            android:textColor="@color/red"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LayoutKSQ"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/simplestyle_layout"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/bsqVarmiKSQS_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BSQ" />
+
+        <EditText
+            android:id="@+id/BSQ_editText"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/NETICE_lay"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/simplestyle_layout"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="NƏTİCƏ:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/neticeKSQS_Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="NƏTİCƏ BURADA GÖRÜNƏCƏK!"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

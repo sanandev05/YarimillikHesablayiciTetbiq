@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Illik_activity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="1-ci yarımil balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/yarimBal1_editText"
+            android:textAlignment="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:digits="0123456789."
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="2-ci yarımil balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/yarimBal2_editText"
+            android:textAlignment="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/IllikHesabla_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Hesabla"
+        android:background="@drawable/style_button"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/simplestyle_layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/neticeIllik_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-------"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>

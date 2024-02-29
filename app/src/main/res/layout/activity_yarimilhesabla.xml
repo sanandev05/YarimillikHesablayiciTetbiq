@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".Yarimilhesabla">
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txt"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txt3"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txt4"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txt5"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:hint=""
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="KSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txt6"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:hint=""
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyBSQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="BSQ balı:"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/txtBSQ"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Calculate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/style_button"
+        android:text="Hesabla" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/simplestyle_layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/neticeYarimIl_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-------"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>
